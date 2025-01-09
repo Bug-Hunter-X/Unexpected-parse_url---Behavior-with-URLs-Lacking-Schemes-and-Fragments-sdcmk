@@ -1,0 +1,1 @@
+This code snippet demonstrates a potential issue with PHP's `parse_url()` function when dealing with URLs containing a fragment identifier ("#").  If the URL doesn't have a scheme (like "http://" or "https://"), `parse_url()` might not parse the fragment correctly, leading to unexpected behavior.  Specifically, the `fragment` component may be missing or incorrect.
